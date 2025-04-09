@@ -1,5 +1,5 @@
 <div class="card">
-  <div class="card-header bg-primary text-white border-dark"><strong>Data Bais Aturan</strong></div>
+  <div class="card-header bg-primary text-white border-dark"><strong>Data Basis Aturan</strong></div>
   <div class="card-body">
 <a class="btn btn-primary mb-2" href="?page=aturan&action=tambah">Tambah</a>
 <table class="table table-bordered" id="myTable">

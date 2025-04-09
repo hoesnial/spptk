@@ -1,0 +1,11 @@
+<?php
+
+$idaturan=$_GET['idaturan'];
+$idgejala=$_GET['idgejala'];
+
+$sql = "DELETE FROM detail_basis_aturan WHERE idaturan='$idaturan' AND idgejala='$idegejala'";
+if ($conn->query($sql) === TRUE) {
+    header("Location:?page=aturan");
+}
+$conn->close();
+?>

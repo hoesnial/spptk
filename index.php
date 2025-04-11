@@ -47,7 +47,7 @@ include "config.php";
       <a class="nav-link" href="?page=aturan">Basis Aturan</a>
     </li>
     <li class="nav-item  active">
-      <a class="nav-link" href="#">Konsultasi</a>
+      <a class="nav-link" href="?page=konsultasi">Konsultasi</a>
     </li>
     <li class="nav-item  active">
       <a class="nav-link" href="#">Logout</a>
@@ -88,6 +88,16 @@ include "config.php";
             include "tampil_aturan.php";
         }elseif ($action=="tambah"){
             include "tambah_aturan.php";
+        }elseif ($action=="update"){
+            include "update_penyakit.php";
+        }else{
+            include "hapus_penyakit.php";
+        }
+    }elseif ($page=="konsultasi"){
+        if ($action==""){
+            include "tampil_konsultasi.php";
+        }elseif ($action=="tambah"){
+            include "tambah_penyakit.php";
         }elseif ($action=="update"){
             include "update_penyakit.php";
         }else{

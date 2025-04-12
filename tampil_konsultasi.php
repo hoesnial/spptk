@@ -1,5 +1,5 @@
 <?php
-data_default_timezone_set('Asia/Jakarta');
+date_default_timezone_set('Asia/Jakarta');
 
 if(isset($_POST['simpan'])){
 
